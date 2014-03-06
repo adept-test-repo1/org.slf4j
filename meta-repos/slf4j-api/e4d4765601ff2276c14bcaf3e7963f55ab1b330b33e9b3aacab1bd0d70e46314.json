@@ -1,0 +1,35 @@
+{
+  "id" : "slf4j-api",
+  "variants" : [ "909a49f26fcdb7aaafbfd1ba3e724a41e3e458d8e434c403df8b44a98937acb6", "eaed37bceedf9e6d1d041406e8d51b747efd2de274b92474cc577d79b1a27a7a", "c47f7b6e881499d089ae31e8705aa447346308fea2fb71984c6351107cebbe90", "69bb1d94125219a52b842f3021f475cf2aca805af39fb1e7a27518db3034389a", "946009f7cf11ce420332b29a1da68f968d86b0eca17b3bd871614dcfd3436b1c", "2a6086dd6857621e5a1ca9e566efb9b1f2b2875b5bc8748bbbd342cff8b68e40", "6c685b5520c887473ba283f9f453883f934025c5e164f26d87580839109b67ba", "870fd89f7fbe374791ded3b1700d435208d27585134136831fe2689e8888c5ed", "bc2c402b92d0e9ac583953be2a409da922f4abb13e4de7b547c5e06833221d17", "6fc9a51e1e0aef2b7efa994740b6fb9c90c3dd5cadca13c40ae7bdb1e1332643", "d7b880c4e94873a87de14223309e515bb93a3001158e5253fcde119e0cd898c4" ],
+  "configurations" : [ {
+    "id" : "test",
+    "repositories" : [ ]
+  }, {
+    "id" : "provided",
+    "repositories" : [ ]
+  }, {
+    "id" : "system",
+    "repositories" : [ ]
+  }, {
+    "id" : "master",
+    "repositories" : [ ]
+  }, {
+    "id" : "optional",
+    "repositories" : [ ]
+  }, {
+    "id" : "compile",
+    "repositories" : [ ]
+  }, {
+    "id" : "default",
+    "repositories" : [ ]
+  }, {
+    "id" : "sources",
+    "repositories" : [ ]
+  }, {
+    "id" : "javadoc",
+    "repositories" : [ ]
+  }, {
+    "id" : "runtime",
+    "repositories" : [ ]
+  } ]
+}

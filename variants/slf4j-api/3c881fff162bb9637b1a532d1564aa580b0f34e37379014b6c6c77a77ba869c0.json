@@ -4,62 +4,28 @@
   "attributes" : {
     "organization" : [ "org.slf4j" ],
     "name" : [ "slf4j-api" ],
-    "version" : [ "1.7.5" ]
+    "version" : [ "1.7.2" ]
   },
   "configurations" : [ {
-    "id" : "runtime",
+    "id" : "test",
     "extends-configurations" : [ ],
     "info" : { },
     "artifacts" : [ ],
     "attributes" : {
       "organization" : [ "org.slf4j" ],
       "name" : [ "slf4j-api" ],
-      "version" : [ "1.7.5" ]
-    },
-    "requirements" : [ ]
-  }, {
-    "id" : "system",
-    "extends-configurations" : [ ],
-    "info" : { },
-    "artifacts" : [ ],
-    "attributes" : {
-      "organization" : [ "org.slf4j" ],
-      "name" : [ "slf4j-api" ],
-      "version" : [ "1.7.5" ]
-    },
-    "requirements" : [ ]
-  }, {
-    "id" : "javadoc",
-    "extends-configurations" : [ ],
-    "info" : { },
-    "artifacts" : [ {
-      "hash" : "ad421f02517e2ce49f7014ae0904d1146f52cd4c128b9d86cab6087dfd356eeb",
-      "attributes" : {
-        "configurations" : [ "javadoc" ]
-      },
-      "filename" : "slf4j-api-1.7.5-javadoc.jar"
-    } ],
-    "attributes" : {
-      "organization" : [ "org.slf4j" ],
-      "name" : [ "slf4j-api" ],
-      "version" : [ "1.7.5" ]
+      "version" : [ "1.7.2" ]
     },
     "requirements" : [ ]
   }, {
     "id" : "sources",
     "extends-configurations" : [ ],
     "info" : { },
-    "artifacts" : [ {
-      "hash" : "a6c9ba666adaecb4d01630bb01c0a69dd8e1cca80821acdfdee1afbfdfdfc984",
-      "attributes" : {
-        "configurations" : [ "sources" ]
-      },
-      "filename" : "slf4j-api-1.7.5-sources.jar"
-    } ],
+    "artifacts" : [ ],
     "attributes" : {
       "organization" : [ "org.slf4j" ],
       "name" : [ "slf4j-api" ],
-      "version" : [ "1.7.5" ]
+      "version" : [ "1.7.2" ]
     },
     "requirements" : [ ]
   }, {
@@ -70,7 +36,7 @@
     "attributes" : {
       "organization" : [ "org.slf4j" ],
       "name" : [ "slf4j-api" ],
-      "version" : [ "1.7.5" ]
+      "version" : [ "1.7.2" ]
     },
     "requirements" : [ ]
   }, {
@@ -81,35 +47,18 @@
     "attributes" : {
       "organization" : [ "org.slf4j" ],
       "name" : [ "slf4j-api" ],
-      "version" : [ "1.7.5" ]
+      "version" : [ "1.7.2" ]
     },
     "requirements" : [ ]
   }, {
-    "id" : "default",
-    "extends-configurations" : [ ],
-    "info" : { },
-    "artifacts" : [ {
-      "hash" : "fe30825245d2336c859dc38d60c0fc5f3668dbf29cd586828d2b5667ec355b91",
-      "attributes" : {
-        "configurations" : [ "master" ]
-      },
-      "filename" : "slf4j-api-1.7.5.jar"
-    } ],
-    "attributes" : {
-      "organization" : [ "org.slf4j" ],
-      "name" : [ "slf4j-api" ],
-      "version" : [ "1.7.5" ]
-    },
-    "requirements" : [ ]
-  }, {
-    "id" : "test",
+    "id" : "system",
     "extends-configurations" : [ ],
     "info" : { },
     "artifacts" : [ ],
     "attributes" : {
       "organization" : [ "org.slf4j" ],
       "name" : [ "slf4j-api" ],
-      "version" : [ "1.7.5" ]
+      "version" : [ "1.7.2" ]
     },
     "requirements" : [ ]
   }, {
@@ -120,7 +69,35 @@
     "attributes" : {
       "organization" : [ "org.slf4j" ],
       "name" : [ "slf4j-api" ],
-      "version" : [ "1.7.5" ]
+      "version" : [ "1.7.2" ]
+    },
+    "requirements" : [ ]
+  }, {
+    "id" : "default",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ {
+      "hash" : "3bae789b401333b2a1d1603b7fa573e19908628191707203f6eb708cdee2c052",
+      "attributes" : {
+        "configurations" : [ "master" ]
+      },
+      "filename" : "slf4j-api-1.7.2.jar"
+    } ],
+    "attributes" : {
+      "organization" : [ "org.slf4j" ],
+      "name" : [ "slf4j-api" ],
+      "version" : [ "1.7.2" ]
+    },
+    "requirements" : [ ]
+  }, {
+    "id" : "runtime",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "org.slf4j" ],
+      "name" : [ "slf4j-api" ],
+      "version" : [ "1.7.2" ]
     },
     "requirements" : [ ]
   }, {
@@ -128,16 +105,27 @@
     "extends-configurations" : [ ],
     "info" : { },
     "artifacts" : [ {
-      "hash" : "fe30825245d2336c859dc38d60c0fc5f3668dbf29cd586828d2b5667ec355b91",
+      "hash" : "3bae789b401333b2a1d1603b7fa573e19908628191707203f6eb708cdee2c052",
       "attributes" : {
         "configurations" : [ "master" ]
       },
-      "filename" : "slf4j-api-1.7.5.jar"
+      "filename" : "slf4j-api-1.7.2.jar"
     } ],
     "attributes" : {
       "organization" : [ "org.slf4j" ],
       "name" : [ "slf4j-api" ],
-      "version" : [ "1.7.5" ]
+      "version" : [ "1.7.2" ]
+    },
+    "requirements" : [ ]
+  }, {
+    "id" : "javadoc",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "org.slf4j" ],
+      "name" : [ "slf4j-api" ],
+      "version" : [ "1.7.2" ]
     },
     "requirements" : [ ]
   } ]
